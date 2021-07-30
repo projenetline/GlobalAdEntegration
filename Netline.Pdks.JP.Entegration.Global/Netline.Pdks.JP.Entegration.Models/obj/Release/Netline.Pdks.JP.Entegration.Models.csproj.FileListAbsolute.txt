@@ -1,0 +1,6 @@
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Entegration.Models\bin\Release\Netline.Pdks.JP.Entegration.Models.dll
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Entegration.Models\bin\Release\Netline.Pdks.JP.Entegration.Models.pdb
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Entegration.Models\obj\Release\Netline.Pdks.JP.Entegration.Models.csprojAssemblyReference.cache
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Entegration.Models\obj\Release\Netline.Pdks.JP.Entegration.Models.dll
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Entegration.Models\obj\Release\Netline.Pdks.JP.Entegration.Models.pdb
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Entegration.Models\obj\Release\Netline.Pdks.JP.Entegration.Models.csproj.CoreCompileInputs.cache

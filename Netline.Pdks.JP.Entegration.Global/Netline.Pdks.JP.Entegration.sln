@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netline.Pdks.JP.Entegration", "Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Entegration.csproj", "{BA28DC00-F5A0-4ADC-9039-86207907DA95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netline.Pdks.JP.BusinessLayer", "Netline.Pdks.JP.BusinessLayer\Netline.Pdks.JP.BusinessLayer.csproj", "{D0F8566D-46E5-49FB-9523-453798A649C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netline.Pdks.JP.Entegration.Models", "Netline.Pdks.JP.Entegration.Models\Netline.Pdks.JP.Entegration.Models.csproj", "{317A1746-E5CB-43B7-9015-4CA3F56AA78F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{03851922-BCD0-4F7A-9CB0-5CF9F010859B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netline.Pdks.JP.Rnd", "Netline.Pdks.JP.Rnd\Netline.Pdks.JP.Rnd.csproj", "{EFE84FCC-C275-4F15-94AC-3C7FA6273F47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA28DC00-F5A0-4ADC-9039-86207907DA95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA28DC00-F5A0-4ADC-9039-86207907DA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA28DC00-F5A0-4ADC-9039-86207907DA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA28DC00-F5A0-4ADC-9039-86207907DA95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F8566D-46E5-49FB-9523-453798A649C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F8566D-46E5-49FB-9523-453798A649C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F8566D-46E5-49FB-9523-453798A649C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F8566D-46E5-49FB-9523-453798A649C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{317A1746-E5CB-43B7-9015-4CA3F56AA78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317A1746-E5CB-43B7-9015-4CA3F56AA78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317A1746-E5CB-43B7-9015-4CA3F56AA78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317A1746-E5CB-43B7-9015-4CA3F56AA78F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE84FCC-C275-4F15-94AC-3C7FA6273F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE84FCC-C275-4F15-94AC-3C7FA6273F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE84FCC-C275-4F15-94AC-3C7FA6273F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE84FCC-C275-4F15-94AC-3C7FA6273F47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66192E13-17DF-4A05-8DD4-C0E05664AE4C}
+	EndGlobalSection
+EndGlobal

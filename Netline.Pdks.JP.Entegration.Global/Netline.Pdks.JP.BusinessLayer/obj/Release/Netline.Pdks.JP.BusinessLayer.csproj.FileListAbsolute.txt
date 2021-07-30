@@ -1,0 +1,11 @@
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.BusinessLayer\bin\Release\Netline.Pdks.JP.BusinessLayer.dll
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.BusinessLayer\bin\Release\Netline.Pdks.JP.BusinessLayer.pdb
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.BusinessLayer\bin\Release\Dapper.dll
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.BusinessLayer\bin\Release\Netline.Pdks.JP.Entegration.Models.dll
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.BusinessLayer\bin\Release\Netline.Pdks.JP.Entegration.Models.pdb
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.BusinessLayer\bin\Release\Dapper.xml
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.BusinessLayer\obj\Release\Netline.Pdks.JP.BusinessLayer.csprojAssemblyReference.cache
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.BusinessLayer\obj\Release\Netline.Pdks.JP.BusinessLayer.csproj.CopyComplete
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.BusinessLayer\obj\Release\Netline.Pdks.JP.BusinessLayer.dll
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.BusinessLayer\obj\Release\Netline.Pdks.JP.BusinessLayer.pdb
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.BusinessLayer\obj\Release\Netline.Pdks.JP.BusinessLayer.csproj.CoreCompileInputs.cache

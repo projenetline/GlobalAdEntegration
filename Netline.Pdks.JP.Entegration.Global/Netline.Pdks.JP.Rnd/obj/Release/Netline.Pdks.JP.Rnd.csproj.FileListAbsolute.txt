@@ -1,0 +1,12 @@
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Rnd\bin\Release\Netline.Pdks.JP.Rnd.exe.config
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Rnd\bin\Release\Netline.Pdks.JP.Rnd.exe
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Rnd\bin\Release\Netline.Pdks.JP.Rnd.XmlSerializers.dll
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Rnd\bin\Release\Netline.Pdks.JP.Rnd.pdb
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Rnd\bin\Release\Microsoft.Web.Services2.dll
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Rnd\bin\Release\Netline.Pdks.JP.Entegration.Models.dll
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Rnd\bin\Release\Netline.Pdks.JP.Entegration.Models.pdb
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Rnd\obj\Release\Netline.Pdks.JP.Rnd.csprojAssemblyReference.cache
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Rnd\obj\Release\Netline.Pdks.JP.Rnd.csproj.CopyComplete
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Rnd\obj\Release\Netline.Pdks.JP.Rnd.exe
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Rnd\obj\Release\Netline.Pdks.JP.Rnd.pdb
+D:\Projelerim\Netline.Pdks.JP.Entegration\Netline.Pdks.JP.Rnd\obj\Release\Netline.Pdks.JP.Rnd.XmlSerializers.dll

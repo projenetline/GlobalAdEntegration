@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://customization.LogoPlatformTailor.com" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://customization.LogoPlatformTailor.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>PntCard</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://customization.LogoPlatformTailor.com">
+      <xs:element name="upadatePntCard">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="firm" type="xs:int" />
+            <xs:element minOccurs="0" name="period" type="xs:int" />
+            <xs:element minOccurs="0" name="language" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="upadatePntCardResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:anyType" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="upadatePntCardRequest">
+    <wsdl:part name="parameters" element="ns:upadatePntCard" />
+  </wsdl:message>
+  <wsdl:message name="upadatePntCardResponse">
+    <wsdl:part name="parameters" element="ns:upadatePntCardResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PntCardPortType">
+    <wsdl:operation name="upadatePntCard">
+      <wsdl:input wsaw:Action="urn:upadatePntCard" message="ns:upadatePntCardRequest" />
+      <wsdl:output wsaw:Action="urn:upadatePntCardResponse" message="ns:upadatePntCardResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PntCardSoap11Binding" type="ns:PntCardPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="upadatePntCard">
+      <soap:operation soapAction="urn:upadatePntCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PntCardSoap12Binding" type="ns:PntCardPortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="upadatePntCard">
+      <soap12:operation soapAction="urn:upadatePntCard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PntCardHttpBinding" type="ns:PntCardPortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="upadatePntCard">
+      <http:operation location="upadatePntCard" />
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PntCard">
+    <wsdl:port name="PntCardHttpSoap11Endpoint" binding="ns:PntCardSoap11Binding">
+      <soap:address location="http://localhost:8080/logo/services/PntCard.PntCardHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="PntCardHttpsSoap11Endpoint" binding="ns:PntCardSoap11Binding">
+      <soap:address location="https://localhost:8443/logo/services/PntCard.PntCardHttpsSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="PntCardHttpSoap12Endpoint" binding="ns:PntCardSoap12Binding">
+      <soap12:address location="http://localhost:8080/logo/services/PntCard.PntCardHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="PntCardHttpsSoap12Endpoint" binding="ns:PntCardSoap12Binding">
+      <soap12:address location="https://localhost:8443/logo/services/PntCard.PntCardHttpsSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="PntCardHttpEndpoint" binding="ns:PntCardHttpBinding">
+      <http:address location="http://localhost:8080/logo/services/PntCard.PntCardHttpEndpoint/" />
+    </wsdl:port>
+    <wsdl:port name="PntCardHttpsEndpoint" binding="ns:PntCardHttpBinding">
+      <http:address location="https://localhost:8443/logo/services/PntCard.PntCardHttpsEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
